@@ -2,7 +2,7 @@
   <div>
     <li class="list-group-item">
       <div class="handle">
-        <a href="javascript:;">删除</a>
+        <a href="javascript:;" @click="deleteC">删除</a>
       </div>
       <p class="user"><span>{{comment.username}}</span><span>说:</span></p>
       <p class="centence">{{comment.content}}!</p>

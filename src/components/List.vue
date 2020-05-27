@@ -9,9 +9,12 @@
 </template>
 
 <script type="text/ecmascript-6">
+import Item from '@/components/Item'
 export default {
     props:['comments','deleteComment'],
-
+    components:{
+      Item
+    },
 }
 </script>
 
